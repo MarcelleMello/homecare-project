@@ -22,6 +22,8 @@
 	
 		<javax-faces.version>2.2.9</javax-faces.version>
 		
+		<jstl.version>1.2</jstl.version>
+		
 	</properties>
 
 
@@ -99,6 +101,13 @@
 			<version>${servlet.version}</version>
 			<scope>provided</scope> 
 			<!-- scope provided porque existe no tomcat -->
+		</dependency>
+		
+		
+		<dependency>
+		    <groupId>jstl</groupId>
+		    <artifactId>jstl</artifactId>
+		    <version>${jstl.version}</version>
 		</dependency>
 		
 		
