@@ -8,10 +8,12 @@ import br.com.homecare.util.JSFMessageUtil;
 
 public class AbstractBean implements Serializable{
 	
+	
 	private static final long serialVersionUID = 4777371977521805277L;
 	
 	private static final String KEEP_DIALOG_OPENED = "KEEP_DIALOG_OPENED";
 
+	
 	public AbstractBean() {
 		super();
 	}
